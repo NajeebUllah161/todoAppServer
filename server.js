@@ -13,7 +13,7 @@ cloudinary.config({
     api_secret: process.env.CLOUD_API_SECRET,
 });
 
-// connectDatabase();
+connectDatabase();
 
 app.listen(process.env.PORT, () => {
     console.log("Server is running on port " + process.env.PORT);
